@@ -1,0 +1,77 @@
+.userName,.password{
+    padding: 0px;
+    position: relative;
+    width: 70%;
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.870588);
+    cursor: initial;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+.password{
+    width : 70%;
+}
+.borderLineUserName{
+	width: 0%;
+	border-color: red;
+	background-color: red;
+	height: 1px;transform: scaleX(0);
+}
+.increaseWidth{
+	width:70%;
+	transform: scaleX(-1);
+	transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;;
+}
+.graphRenderDiv{
+    width:200px;
+    height: 200px;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+
+text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+a:-webkit-any-link{
+    text-decoration: none !important;
+    color:black;
+}
+.link{
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.link:nth-of-Type(1){
+  margin-left:0px !important;
+
+}
+.selected{
+  color: blue !important;
+}
